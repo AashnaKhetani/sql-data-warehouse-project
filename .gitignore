@@ -1,0 +1,34 @@
+# ====================================================================
+# Data Warehouse Project: PostgreSQL + DBeaver (Mac Edition)
+# ====================================================================
+
+# 1. Ignore Raw Ingestion Data (The Data Files)
+*.csv
+*.xlsx
+*.json
+
+# 2. Ignore system specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# 3. Ignore local configuration files
+*.env
+*.config
+
+# 4. Ignore DBeaver Client Workspace Artifacts
+.data-sources/
+DBeaverData/
+*.log
+*.bak
+*.tmp
+
+#5. Ignore temporary or backup files
+*.log
+*.bak
+*.tmp
+
+#6. Ignore IDE-specific files
+.vscode/
+.idea/
